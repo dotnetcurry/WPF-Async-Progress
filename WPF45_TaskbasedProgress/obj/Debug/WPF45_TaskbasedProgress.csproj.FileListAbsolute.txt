@@ -1,0 +1,13 @@
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\bin\Debug\WPF45_TaskbasedProgress.exe.config
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\bin\Debug\WPF45_TaskbasedProgress.exe
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\bin\Debug\WPF45_TaskbasedProgress.pdb
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\WPF45_TaskbasedProgress.csprojResolveAssemblyReference.cache
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\MainWindow.baml
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\MainWindow.g.cs
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\App.g.cs
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\WPF45_TaskbasedProgress_MarkupCompile.cache
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\WPF45_TaskbasedProgress.g.resources
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\WPF45_TaskbasedProgress.Properties.Resources.resources
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\WPF45_TaskbasedProgress.csproj.GenerateResource.Cache
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\WPF45_TaskbasedProgress.exe
+E:\Mahesh_New\Articles\July2015\WPF45_TaskbasedProgress\WPF45_TaskbasedProgress\obj\Debug\WPF45_TaskbasedProgress.pdb

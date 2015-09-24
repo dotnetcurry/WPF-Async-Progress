@@ -1,0 +1,43 @@
+﻿<Window x:Class="WPF45_TaskbasedProgress.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="741.323" Width="852.381">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="210*"/>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="54*"/>
+        </Grid.RowDefinitions>
+        <TextBlock TextWrapping="Wrap" Text="Employee Information Manager"
+                   TextAlignment="Center"
+                   FontFamily="Times New Roman" FontWeight="ExtraBold"
+                   FontSize="50" Margin="0,0,-0.4,0.6" Grid.ColumnSpan="2"/>
+        <DataGrid Grid.ColumnSpan="2" Margin="0,4.4,-0.4,58.6"
+             AutoGenerateColumns="False"  ColumnWidth="*"     Name="dgEmp" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="EmpNo" Binding="{Binding EmpNo}"></DataGridTextColumn>
+                <DataGridTextColumn Header="EmpName" Binding="{Binding EmpName}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Salary" Binding="{Binding Salary}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Tax" Binding="{Binding Tax}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Load Employees" Grid.Row="2" FontSize="20"
+                 Name="btnLoadEmployee" Click="btnLoadEmployee_Click" Margin="0,0.4,212.4,0"/>
+        <Button Content="Calculate  Tax" Grid.Row="2"
+                    FontSize="20"  Name="btnCalculateTax" Click="btnCalculateTax_Click" Margin="288,0.4,358.6,0" Grid.ColumnSpan="2"/>
+        <ProgressBar Grid.Row="3" Grid.ColumnSpan="2" Name="progress" Margin="0,0,-0.4,0"
+                     />
+        <Button Content="Cancel" Grid.Row="2"
+        	FontSize="20"  x:Name="btnCancel" 
+                Click="btnCancel_Click" Margin="157.6,0.4,66.6,0" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,380.4,0,0" 
+                   Name="txtstatus"
+                   Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="836" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
